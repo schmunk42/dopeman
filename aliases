@@ -1,0 +1,6 @@
+alias d-aws="docker run --rm  xueshanf/awscli aws"
+alias d-bats="docker run -v ${PWD}/test:/test dduportal/bats /test"
+alias d-qrcode="docker run --rm -t scottweston/qrcode-generator"
+alias d-qrcode-png='docker run -t --rm -v $(pwd)/_qr-code:/root krystism/qrcode encode -o qr-code.png --data'
+alias d-nuvalidator="docker run magnetikonline/html5validator java -jar /root/build/validator.nu/vnu.jar"
+alias d-cloc='docker run -v $PWD:/data schmunk42/cloc'
